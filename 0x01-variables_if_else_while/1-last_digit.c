@@ -11,22 +11,25 @@ return (abs(num) % 10);
 int main(void)
 {
 int n;
+
+/*another else*/
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-printf("Last digit of %d is ", n);
 /*another else*/
+printf("Last digit of %d is %d ", n, getLastDigit(n));
 
-if (n > 5) {
-printf("%d and is greater than 5\n", n);
 /*another else*/
-} else if (n == 0) {
+if (getLastDigit(n) > 5) {
+printf("and is greater than 5\n");
 /*another else*/
-printf("%d and is 0\n", n);
+} else if (getLastDigit(n) == 0) {
+printf("and is 0\n");
+/*another else*/
 } else {
-/*another else*/
-printf("%d and is less than 6 and not 0\n", n);
+printf("and is less than 6 and not 0\n");
 /*another else*/
 }
+
 return (0);
 }
