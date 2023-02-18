@@ -1,6 +1,7 @@
 Task 3
 #include <stdio.h>
 #include <unistd.h>
+#include <stddef.h>
 /**
  * main - Entry point
  * Description: prints alphabet in lowercase then after in  uppercase
