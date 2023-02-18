@@ -1,27 +1,18 @@
-int main()
-/*Print a newline character */
+#include <stdio.h>
+#include <unistd.h>
+/**
+ * main - Entry point
+ * Description: prints the alphabet in lowercase\n
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
-char lowercase = 'a';
-char uppercase = 'A';
+	int ch;
 
-/*Print the alphabet in lowercase*/ 
-while (lowercase <= 'z')
-{
-putchar(lowercase);
-lowercase++;
-/*Print a newline character */
-}
-
-/*Print the alphabet in uppercase */ 
-while (uppercase <= 'Z')
-{
-putchar(uppercase);
-uppercase++;
-/*Print a newline character */
-}
-
-/*Print a newline character */ 
-putchar('\n');
-
-return 0;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+return (0);
 }
