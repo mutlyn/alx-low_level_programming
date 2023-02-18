@@ -1,4 +1,3 @@
-Task 3
 #include <stdio.h>
 #include <unistd.h>
 #include <stddef.h>
