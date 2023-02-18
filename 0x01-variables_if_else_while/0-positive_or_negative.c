@@ -16,19 +16,26 @@ int main(void)
     n = rand() - RAND_MAX / 2;
 
     if (n > 0)
+		/**
+		 * Prints a Positive Number
+		 */
     {
         printf("%d is positive\n", n);
-		// This prints out the number if it is positive
+
     }
     else if (n == 0)
+		/**
+		 * Prints a Positive Number
+		 */
     {
         printf("%d is zero\n", n);
-		// This prints out the number if it is positive
     }
     else
+		/**
+		 * Prints a Positive Number
+		 */
     {
         printf("%d is negative\n", n);
-		// This prints out the number if it is positive
     }
 
     return (0);
