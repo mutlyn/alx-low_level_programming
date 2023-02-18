@@ -5,7 +5,6 @@
 /**
  * main - generates a random number and prints whether it is positive,
  *        negative, or zero.
- *
  * Return: Always 0.
  */
 int main(void)
@@ -16,25 +15,22 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 if (n > 0)
-/**
- * Prints a Positive Number
- */
+/*Prints a Positive Number*/
 {
 printf("%d is positive\n", n);
+/*Prints a Positive Number*/
 }
 else if (n == 0)
-/**
- * Prints a Positive Number
- */
+/*else statement*/
 {
 printf("%d is zero\n", n);
+/*Prints a zero*/
 }
 else
-/**
- * Prints a Positive Number
- */
+/*another else*/
 {
 printf("%d is negative\n", n);
+/*prints a negative*/
 }
 
 return (0);
