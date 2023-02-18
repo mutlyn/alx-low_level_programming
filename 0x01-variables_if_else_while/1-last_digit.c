@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /* Function to get the last digit of a number */
-int getLastDigit(int num) {
+int getLastDigit(int num) 
+{
 return (abs(num) % 10);
 }
 
@@ -20,13 +21,23 @@ n = rand() - RAND_MAX / 2;
 printf("Last digit of %d is %d ", n, getLastDigit(n));
 
 /*another else*/
-if (getLastDigit(n) > 5) {
+if (getLastDigit(n) > 5) 
+{
 printf("and is greater than 5\n");
 /*another else*/
-} else if (getLastDigit(n) == 0) {
+} 
+else if (getLastDigit(n) == 0) 
+{
 printf("and is 0\n");
 /*another else*/
-} else {
+} 
+else if(n < 0)
+{
+printf("-%d and is less than 6 and not 0\n", getLastDigit(-n));
+/*another else*/
+}
+else 
+{
 printf("and is less than 6 and not 0\n");
 /*another else*/
 }
