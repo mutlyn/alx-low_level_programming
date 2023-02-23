@@ -1,19 +1,8 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - print _putchar
- * Return:Always 0
+ * Return:Always 0 (Success)
  */
-int main(void)
-{/**
-
- * main - Prints Holberton as a message.
-
- *
-
- * Return: Always 0 (Success)
-
- */
-
 int main(void)
 {
 
