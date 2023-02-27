@@ -2,8 +2,8 @@
 /*
  * print_rev -prints a string in reverse
  * @str:A pointer to the string to print.
- *
- * return: 0
+ * Description:This function takes a pointer to a string and prints
+ * Return: 0
  */
 void print_rev(char *s)
 {
