@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcat - concatenates
- * @dest: input vl 
- * @src: input vl 
- * 
+ * _strcat - concatenates two strings
+ * @dest: input value one
+ * @src: input value two
+ *
  * Return: void
  */
 char *_strcat(char *dest, char *src)
