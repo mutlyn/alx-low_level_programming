@@ -1,16 +1,29 @@
 #include "main.h"
 /**
- * main - Entry point
- * 
- * Return: Always 0 (Success)
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ *
+ * Return: void
  */
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-	char *str = "_putchar\n";
 	int i;
-	for (i = 0; str[i] != '\0'; i++)
+	int j;
+
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		_putchar(str[i]);
+		i++;
 	}
-	return (0);
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+
+	dest[i] = '\0';
+	return (dest);
 }
